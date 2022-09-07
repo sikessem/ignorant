@@ -1,0 +1,44 @@
+{
+    "name": "sikessem/ignorant",
+    "description": "🙈 Ignore files by names or paths",
+    "license": "MIT",
+    "keywords": [
+        "ignore files",
+        "files finder"
+    ],
+    "homepage": "https://packagist.com/packages/sikessem/ignorant",
+    "support": {
+        "docs": "https://github.com/sikessem/ignorant#readme",
+        "source": "https://github.com/sikessem/ignorant",
+        "wiki": "https://github.com/sikessem/ignorant/wiki",
+        "issues": "https://github.com/sikessem/ignorant/issues",
+        "chat": "https://github.com/sikessem/ignorant/discussions"
+    },
+    "authors": [{
+        "name": "SIGUI Kessé Emmanuel",
+        "email": "ske@sikessem.com",
+        "homepage": "https://sikessem.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Sikessem\\Ignorant\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0.22",
+        "sikessem/capsule": "^0.1.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

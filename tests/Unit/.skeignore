@@ -1,0 +1,4 @@
+#/bin/
+/.git/
+.*ignore
+!/tests/Unit/.skeignore
